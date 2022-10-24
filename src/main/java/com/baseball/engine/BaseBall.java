@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 @AllArgsConstructor
 public class BaseBall implements Runnable {
-    private final int COUNT_OF_NUMBERS = 3;
+    private final int COUNT_OF_NUMBERS = 4;
 
     private NumberGenerator generator;
     private Input input;
