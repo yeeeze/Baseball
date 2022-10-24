@@ -8,7 +8,7 @@ import com.baseball.engine.io.Output;
 public class App {
 
     public static void main(String[] args) {
-        NumberGenerator generator = new FakerNumberGenerator();
+        NumberGenerator generator = new HackFakerNumberGenerator();
         Console console = new Console();
 
         new BaseBall(generator, console, console).run();
