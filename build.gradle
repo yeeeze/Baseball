@@ -15,6 +15,9 @@ dependencies {
 
     // lombok
     implementation 'org.projectlombok:lombok:1.18.24'
+
+    // faker
+    implementation 'com.github.javafaker:javafaker:1.0.2'
 }
 
 test {

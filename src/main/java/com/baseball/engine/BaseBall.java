@@ -1,6 +1,7 @@
 package com.baseball.engine;
 
 import com.baseball.engine.io.Input;
+import com.baseball.engine.io.NumberGenerator;
 import com.baseball.engine.io.Output;
 import com.baseball.engine.model.BallCount;
 import com.baseball.engine.model.Numbers;
